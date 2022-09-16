@@ -1,1 +1,8 @@
+@use "sass:color";
 @use 'partials/top-picks';
+@use 'cartes';
+@use 'variables';
+
+body{
+    background-color: red;
+}
