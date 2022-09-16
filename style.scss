@@ -1,8 +1,11 @@
 @use "sass:color";
 @use 'partials/top-picks';
-@use 'cartes';
-@use 'variables';
+@use 'partials/variables';
+@use 'partials/cartes';
 
 body{
-    background-color: red;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
 }
+
